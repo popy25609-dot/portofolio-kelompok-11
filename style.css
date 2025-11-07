@@ -1,118 +1,92 @@
-/* style.css - improved styling */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Poppins', sans-serif;
-  background: #fafafa;
+  background-color: #fafafa;
   color: #333;
-  line-height: 1.6;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: linear-gradient(90deg, #233142, #455d7a);
-  padding: 1rem 2rem;
-  color: #fff;
-  position: sticky;
-  top: 0;
-  z-index: 10;
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #7b2ff7, #f107a3);
 }
 
-.logo img {
-  width: 90px;
+/* Team Page */
+.team-page {
+  background: linear-gradient(135deg, #f5d0ff, #d7b4f3);
 }
-
-
-nav ul {
-  display: flex;
-  gap: 1.2rem;
-  list-style: none;
+.text-gradient {
+  background: linear-gradient(90deg, #f107a3, #7b2ff7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
-nav a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 500;
-  transition: 0.3s;
-}
-
-nav a:hover {
-  color: #f4d35e;
-}
-
-.hero {
-  padding: 4rem 2rem;
-  text-align: center;
-  background: linear-gradient(180deg, #e3e9ff, #fff);
-}
-
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: #233142;
-}
-
-.hero p {
-  color: #455d7a;
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-}
-
-.hero img {
-  margin-top: 1rem;
-  border-radius: 50%;
-  border: 5px solid #455d7a;
-}
-
-.section {
-  padding: 3rem 2rem;
-}
-
-.section h2 {
-  font-size: 2rem;
-  margin-bottom: 1.5rem;
-  color: #233142;
-  text-align: center;
-}
-
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
-}
-
-.card {
-  width: 300px;
+.profile-card {
   background: #fff;
-  padding: 1rem;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
   transition: 0.3s;
 }
-
-.card:hover {
-  transform: translateY(-5px);
+.profile-card:hover {
+  transform: translateY(-8px);
 }
-
-.card img {
+.profile-card img {
   width: 100%;
-  border-radius: 8px;
-  margin-bottom: 1rem;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
-footer {
-  background: #233142;
-  color: #fff;
+/* Profile Page */
+.profile-page {
+  background-color: #fff;
+}
+.profile-hero {
   text-align: center;
-  padding: 2rem;
-  margin-top: 2rem;
+  background: linear-gradient(135deg, #a4508b, #5f0a87);
+  color: #fff;
+  padding: 100px 20px;
+}
+.profile-hero img {
+  width: 150px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-bottom: 20px;
+}
+
+/* Warna Unik */
+.nova-bg {
+  background: linear-gradient(135deg, #2193b0, #6dd5ed);
+}
+.sofyan-bg {
+  background: linear-gradient(135deg, #11998e, #38ef7d);
+}
+
+.section-box {
+  background: #fff;
+  margin: 60px auto;
+  padding: 50px 25px;
+  max-width: 900px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.section-box h2 {
+  color: #5f0a87;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.footer-box {
+  background: #2a2a2a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.btn-gradient {
+  background: linear-gradient(90deg, #f107a3, #7b2ff7);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+.btn-gradient:hover {
+  background: linear-gradient(90deg, #7b2ff7, #f107a3);
 }
