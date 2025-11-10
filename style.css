@@ -30,7 +30,7 @@ body {
 }
 .profile-card img {
   width: 100%;
-  border-radius: 50%;
+  border-radius: 20%;
   margin-bottom: 10px;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 .profile-hero img {
   width: 150px;
-  border-radius: 50%;
+  border-radius: 50git %;
   border: 5px solid #fff;
   margin-bottom: 20px;
 }
