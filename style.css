@@ -58,6 +58,9 @@ body {
 .sofyan-bg {
   background: linear-gradient(135deg, #11998e, #38ef7d);
 }
+.ayu-bg {
+  background: linear-gradient(135deg, #ee9ca7, #ffdde1);
+}
 
 .section-box {
   background: #fff;
